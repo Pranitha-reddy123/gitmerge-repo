@@ -4,5 +4,7 @@ resource "aws_vpc" "name" {
   tags ={
     Name = "pranitha-reddy"
     env = "dev-env"
+    description = "this is my 2nd vpc"
+    
   }
 }
