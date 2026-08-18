@@ -6,5 +6,6 @@ resource "aws_vpc" "name" {
     env = "dev-env"
     description = "this is my 2nd vpc"
     
+    description = "this is my vpc"
   }
 }
